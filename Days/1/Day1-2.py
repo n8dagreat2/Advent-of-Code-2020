@@ -1,6 +1,6 @@
-# Day 1 - Part 1 of Advent of Code 2020
+# Day 1 - Part 2 of Advent of Code 2020
 # Objective for this part:
-#   Find 2 numbers that add up to 2020 in input.txt and multiply them for the answer
+#   Find 3 numbers that add up to 2020 in input.txt and multiply them for the answer
 
 input_file = open("input.txt", "r")
 lines = input_file.readlines()   # Saves each line in an array with each index being individual lines
