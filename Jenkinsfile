@@ -5,7 +5,7 @@ pipeline {
   stages {
     stage('Run') {
       steps {
-        sh 'pwd'
+        sh 'python3 ./Days/1/Day1_1.py'
       }
     }
 
