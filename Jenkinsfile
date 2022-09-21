@@ -3,8 +3,7 @@ pipeline {
   stages {
     stage('Run') {
       steps {
-        sh 'chmod +x Days/1/py.sh'
-        sh './Days/1/py.sh 1'
+        sh 'python3 /Days/1/Day1-1.py'
       }
     }
 
