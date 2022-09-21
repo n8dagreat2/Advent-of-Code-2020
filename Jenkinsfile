@@ -1,5 +1,7 @@
 pipeline {
-  agent any
+  agent {
+    label 'default' 
+  }
   stages {
     stage('Run') {
       steps {
