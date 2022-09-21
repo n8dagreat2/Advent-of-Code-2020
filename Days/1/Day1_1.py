@@ -2,7 +2,7 @@
 # Objective for this part:
 #   Find 2 numbers that add up to 2020 in input.txt and multiply them for the answer
 
-input_file = open("input.txt", "r")
+input_file = open("./Days/1/input.txt", "r")
 lines = input_file.readlines()   # Saves each line in an array with each index being individual lines
 
 # Change the input array to integer values to be used later
